@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo app</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="todo app.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+         <button class="back btn btn-success">Previous Page</button>
+        </a> 
+     </nav> 
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container">
+            <h1 class="text-muted">TODO</h1>
+            <div class="d-flex">
+                <input id="input" class="form-control" type="text" placeholder="Create new TODO...">
+                <button id="add" class="btn btn-success ms-2" type="button"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <ul id="list" class="mt-4"></ul>
+            <u class="text-success" id="delete"><p>Delete complete items</p></u>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/tudo app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color: whitesmoke;
+}
+
+.back{
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;    
+}
+
+.container h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 6px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none;
+    border: 1px solid #ced4da;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li i {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
